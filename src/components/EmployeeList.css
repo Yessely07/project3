@@ -1,0 +1,54 @@
+/* src/components/EmployeeList.css */
+.employee-list {
+    width: 100%;
+    padding: 20px;
+    background-color: #ecf0f1;
+  }
+  
+  .add-button {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #27ae60;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Agregado */
+  }
+  
+  thead {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    text-align: left;
+    word-wrap: break-word; /* Agregado */
+  }
+  
+  th {
+    width: 20%; /* Ajusta el valor según sea necesario */
+  }
+  
+  button {
+    padding: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #bdc3c7;
+  }
+  
+  
